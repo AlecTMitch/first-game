@@ -100,7 +100,7 @@ class Npc:
         print(self.description)
         print("Racial Bonus:", self.racial_bonus)
 
-Stacy = Npc("Stacy", hp=15, strength=3, speed=5, love=0, description="A hungry and fat bitch", racial_bonus="Obesity")
+Stacy = Npc("Stacy", hp=15, strength=3, speed=5, love=0, description="A hungry and FAT bitch", racial_bonus="Obesity")
 Haley = Npc("Haley", hp=36, strength=8, speed=8, love=0, description="A book worm, but not actually a worm", racial_bonus="Learned")
 
 def time_print(text):
